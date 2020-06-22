@@ -40,6 +40,10 @@ h3 {
     right: 30%;
 }
 
+#buttn {
+    margin: 20px 10px;
+}
+
 /* Navbar  */
 
 .navbar-brand {
@@ -133,4 +137,39 @@ p {
 
 .pricing-clm {
     padding: 3% 2%;
+}
+
+/* calltoaction */
+#cta {
+    padding: 7% 15%;
+    background-color: #ff4c68;
+    color: white;
+    text-align: center;
+}
+
+.cta-text {
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+/* footer */
+#footer {
+    padding: 5% 15%;
+    background-color: white;
+    text-align: center;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-img {
+        position: static;
+        transform: rotate(0deg);
+    }
+
+    #features {
+        position: static;
+    }
 }
