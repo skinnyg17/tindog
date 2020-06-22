@@ -159,6 +159,10 @@ p {
     text-align: center;
 }
 
+.footer-btn {
+    margin: 20px 10px;
+}
+
 @media (max-width: 1028px) {
     #title {
         text-align: center;
